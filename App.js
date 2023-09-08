@@ -72,7 +72,6 @@ export default function App() {
       </TouchableOpacity>
       <TouchableOpacity style={styles.submitbtn}>
       <Button title='Delete last record' style={styles.delete}  onPress={Delete}/>
-      <Button title=' Reddundant Delete last record' style={styles.delete}  onPress={Delete}/>
       </TouchableOpacity>
       <TouchableOpacity style={styles.submitbtn}>
       <Button title='Get some Record' style={styles.delete}  onPress={Reader}/>
